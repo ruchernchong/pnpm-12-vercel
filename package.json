@@ -24,5 +24,11 @@
     "tailwindcss": "^4",
     "typescript": "^5"
   },
-  "packageManager": "pnpm@12.3.2"
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "12.3.2",
+      "onFail": "download"
+    }
+  }
 }
